@@ -1,17 +1,17 @@
-package com.advancedstore.product_service.entity;
+package com.advancedstore.user_service.entity;
 
 import jakarta.persistence.*;
 
 @Entity
-public class Product{
+public class User{
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
     private Long id;
     private int amount;
     private String name;
     private float price;
-    public Product() {}
-    public Product(int amount, String name, float price){
+    public User() {}
+    public User(int amount, String name, float price){
         this.amount=amount;
         this.name=name;
         this.price=price;

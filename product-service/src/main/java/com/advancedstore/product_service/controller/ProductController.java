@@ -1,7 +1,7 @@
-package com.simplestore.product_service.controller;
+package com.advancedstore.product_service.controller;
 
-import com.simplestore.product_service.entity.Product;
-import com.simplestore.product_service.service.ProductService;
+import com.advancedstore.product_service.entity.Product;
+import com.advancedstore.product_service.service.ProductService;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
