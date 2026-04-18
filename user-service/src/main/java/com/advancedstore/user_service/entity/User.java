@@ -3,6 +3,7 @@ package com.advancedstore.user_service.entity;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name="user_table")
 public class User{
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)

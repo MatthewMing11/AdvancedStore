@@ -3,6 +3,7 @@ package com.advancedstore.order_service.entity;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name="order_table")
 public class Order{
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
